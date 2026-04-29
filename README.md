@@ -1,65 +1,89 @@
-# Welcome to your Expo app 👋
+Alta: Mindset, Refined.
+Alta is a high-performance affirmation and mental-wellness platform designed for those who value both aesthetic minimalism and cognitive science. Built with a sleek black-and-blue interface, Alta moves beyond static quotes by leveraging edge-computing AI to deliver personalized psychological reframing in real-time.
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+View the Repository
 
-## Get started
+🌌 The Aesthetic
+Alta is built on a "Midnight Command" design language.
 
-To start the app, in your terminal run:
+Primary: Deep Onyx (#000000)
 
-```bash
-npm run start
-```
+Accent: Electric Cobalt (#0047AB)
 
-In the output, you'll find options to open the app in:
+Vibe: Focused, calm, and high-tech.
 
-- [a development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [an Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [an iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🚀 Key Features
+🧠 AI-Driven Recommendations
+Unlike traditional apps that cycle through a static list, Alta uses a Llama 3.3 backend deployed via Cloudflare Workers.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+Context-Aware: Analyzes user goals and current mood to generate custom affirmations.
 
-## Workflows
+Edge Latency: Sub-second response times for instant cognitive reframing.
 
-This project is configured to use [EAS Workflows](https://docs.expo.dev/eas/workflows/get-started/) to automate some development and release processes. These commands are set up in [`package.json`](./package.json) and can be run using NPM scripts in your terminal.
+Durable Objects: Maintains a persistent "Memory Layer" of your mental journey without compromising privacy.
 
-### Previews
+🖼️ Dynamic Widgets
+Keep your mindset on your home screen.
 
-Run `npm run draft` to [publish a preview update](https://docs.expo.dev/eas/workflows/examples/publish-preview-update/) of your project, which can be viewed in Expo Go or in a development build.
+System-Wide Integration: Beautifully designed iOS widgets in Small and Medium formats.
 
-### Development Builds
+Real-time Updates: Automatically cycles through your most impactful affirmations throughout the day.
 
-Run `npm run development-builds` to [create a development build](https://docs.expo.dev/eas/workflows/examples/create-development-builds/). Note - you'll need to follow the [Prerequisites](https://docs.expo.dev/eas/workflows/examples/create-development-builds/#prerequisites) to ensure you have the correct emulator setup on your machine.
+⚡ Performance & Persistence
+Offline First: Powered by a robust CoreData caching layer to ensure your affirmations are available even without a connection.
 
-### Production Deployments
+Streak System: A gamified consistency engine that tracks your daily mindfulness progress, encouraging long-term habit formation.
 
-Run `npm run deploy` to [deploy to production](https://docs.expo.dev/eas/workflows/examples/deploy-to-production/). Note - you'll need to follow the [Prerequisites](https://docs.expo.dev/eas/workflows/examples/deploy-to-production/#prerequisites) to ensure you're set up to submit to the Apple and Google stores.
+Optimized Networking: Implements request batching to reduce battery drain and network overhead.
 
-## Hosting
+🛠️ Technical Stack
+Frontend: SwiftUI (Modern declarative UI)
 
-Expo offers hosting for websites and API functions via EAS Hosting. See the [Getting Started](https://docs.expo.dev/eas/hosting/get-started/) guide to learn more.
+Local Persistence: CoreData (Persistent caching)
 
+Backend/AI: Cloudflare Workers + Llama 3.3 (Edge Intelligence)
 
-## Get a fresh project
+State Management: Durable Objects (Persistent user context)
 
-When you're ready, run:
+Architecture: MVVM (Model-View-ViewModel)
 
-```bash
-npm run reset-project
-```
+📦 Installation
+Bash
+# Clone the repository
+git clone https://github.com/megangadiparthy/alta-affirmation-app.git
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+# Navigate to the project directory
+cd alta-affirmation-app
 
-## Learn more
+# Open in Xcode
+open Alta.xcodeproj
+Ensure you have Xcode 15.0+ installed.
 
-To learn more about developing your project with Expo, look at the following resources:
+Set your Cloudflare API credentials in the Config.xcconfig (if contributing to the AI module).
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+Build and Run on your physical device or simulator.
 
-## Join the community
+🗺️ Roadmap
+[ ] Biometric Triggering: Integrating Apple HealthKit to trigger affirmations based on Heart Rate Variability (HRV) spikes.
 
-Join our community of developers creating universal apps.
+[ ] Collaborative Circles: Private, end-to-end encrypted groups for sharing affirmations with close peers.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+[ ] Apple Watch Complications: Glanceable affirmations for the wrist.
+
+🤝 Contributing
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create.
+
+Fork the Project
+
+Create your Feature Branch (git checkout -b feature/AmazingFeature)
+
+Commit your Changes (git commit -m 'Add some AmazingFeature')
+
+Push to the Branch (git push origin feature/AmazingFeature)
+
+Open a Pull Request
+
+📄 License
+Distributed under the MIT License. See LICENSE for more information.
+
+Built with 💙 by Megan Gadiparthy
