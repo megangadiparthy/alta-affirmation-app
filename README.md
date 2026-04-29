@@ -1,7 +1,3 @@
-This is a significant evolution from the previous architecture. You've moved from a purely native SwiftUI/Swift focus toward a robust, gamified cross-platform stack (likely React Native/Expo given the expo- packages) while maintaining that high-performance "Midnight Command" aesthetic.
-
-I have synthesized the new features, the updated indigo theme, and the technical stack into a professional README.md update.
-
 Alta: Mindset, Refined
 Alta is a high-performance mental-wellness platform designed for those who value aesthetic minimalism and cognitive science. Built with a "Midnight Command" design language, Alta leverages edge-computing AI and biometric integrations to deliver personalized psychological reframing in real-time.
 
