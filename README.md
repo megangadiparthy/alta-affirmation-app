@@ -1,4 +1,5 @@
 Alta: Mindset, Refined.
+
 Alta is a high-performance affirmation and mental-wellness platform designed for those who value both aesthetic minimalism and cognitive science. Built with a sleek black-and-blue interface, Alta moves beyond static quotes by leveraging edge-computing AI to deliver personalized psychological reframing in real-time.
 
 View the Repository
